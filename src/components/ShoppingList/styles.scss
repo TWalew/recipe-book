@@ -1,0 +1,28 @@
+.ingredient-form {
+  .group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.ingredients-list {
+  .card {
+    width: 50%;
+    margin: 15px auto;
+
+    .card-title {
+      text-align: left;
+
+      p {
+        margin: 0;
+      }
+    }
+
+    .card-body {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+  }
+}

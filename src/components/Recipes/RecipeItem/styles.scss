@@ -1,0 +1,15 @@
+.recipe-card {
+  display: flex !important;
+  justify-content: space-between !important;
+  flex-direction: row !important;
+  align-items: center;
+
+  .card-body {
+    text-align: left;
+  }
+
+  .card-img {
+    width: 100px;
+    height: 100px;
+  }
+}
